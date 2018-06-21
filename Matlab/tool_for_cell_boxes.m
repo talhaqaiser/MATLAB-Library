@@ -1,8 +1,15 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Talha Qaiser
+% Department of Computer Science, 
+% University of Warwick, UK.
+% http://www2.warwick.ac.uk/fac/sci/dcs/people/research/talhaqaiser
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 clc
 clear 
 close all
 
-dir_path = 'C:\Users\BiaLab\Dropbox\mres\IHC_scoring\ProBe\ProBe_mouse_nsulin\ihc_analysis\cell_density_estimate\islet\';
+dir_path = 'C:\';
 dir_list =  dir([dir_path '*.png']);
 out_dir = '';
 
@@ -11,7 +18,6 @@ W = [];     H = [];
 for i=273:2:length(dir_list)
     i
     img_name = dir_list(i).name;
-    img_name =  'LC200 350  351_A1MI_1.jp2_59.png'
     img_path = strcat(dir_path, img_name);
     
     img = imread(img_path);
