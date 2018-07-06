@@ -15,7 +15,7 @@ out_dir = 'cell_dotting\GT\';
 
 accum = 895;
 X = []; Y = [];
-for i=273:2:length(dir_list)
+for i=1:2:length(dir_list)
     i
     img_name = dir_list(i).name;
     img_name =  'LC200 350  351_A1MI_1.jp2_59.png'

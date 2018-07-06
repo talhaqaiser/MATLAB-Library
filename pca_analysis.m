@@ -1,7 +1,19 @@
 function [pca_out] =  pca_analysis(pca_in, components)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Fucntion for counting number of lines 
+% in CSV
+%
+% Input:
+% pca_in      	- PCA input 
+% components	- no of required components 
+%
+% Output:
+% pca_out          - principle components of  a given data 
 % Talha Qaiser
-% BIAlab, Department of Computer Science, University of Warwick
+% TIAlab, Department of Computer Science, 
+% University of Warwick
 % Ref:http://matlabdatamining.blogspot.co.uk/2010/02/principal-components-analysis.html
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 [n m] = size(pca_in);
 mean_pca_in = mean(pca_in);

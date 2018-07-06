@@ -11,7 +11,7 @@ function [numLines] =  countCSVlines(filePath)
 %
 %
 % Talha Qaiser
-% Department of Computer Science, 
+% TIA Lab, Department of Computer Science, 
 % University of Warwick, UK.
 % http://www2.warwick.ac.uk/fac/sci/dcs/people/research/talhaqaiser
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

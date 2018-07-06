@@ -1,6 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Talha Qaiser
-% Department of Computer Science, 
+% TIA Lab, Department of Computer Science, 
 % University of Warwick, UK.
 % http://www2.warwick.ac.uk/fac/sci/dcs/people/research/talhaqaiser
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -15,7 +15,7 @@ out_dir = '';
 
 X_min = []; Y_min = [];
 W = [];     H = [];  
-for i=273:2:length(dir_list)
+for i=1:length(dir_list)
     i
     img_name = dir_list(i).name;
     img_path = strcat(dir_path, img_name);
